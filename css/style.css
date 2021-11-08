@@ -1,7 +1,44 @@
+body {
+    margin: 0;
+    
+}
+
 header {
     background-color: rgba(37, 109, 123, 1);
     height: 150px;
     width: 100%;
     background-image: url(../img/pattern.png);
     background-size: contain;
+    position: relative;
+}
+
+#head {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 5px;
+}
+
+#fonte {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+
+#blue {
+    color: rgb(47, 47, 243);
+}
+
+#data {
+    font-size: 15px;
+}
+
+.pictures {
+    margin: 0;
 }
