@@ -42,3 +42,19 @@ h1 {
 .pictures {
     margin: 0;
 }
+
+.description {
+    font-size: 10px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.informazioni {
+    margin-left: 0px;
+}
