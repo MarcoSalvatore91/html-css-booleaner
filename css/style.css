@@ -1,7 +1,10 @@
+/* Generico */
 body {
     margin: 0;
     
 }
+
+/* Header + Titolo */
 
 header {
     background-color: rgba(37, 109, 123, 1);
@@ -19,6 +22,8 @@ header {
     bottom: 0px;
     left: 5px;
 }
+
+/* Sottotitoli */
 
 h1 {
     font-size: 60px;
@@ -39,6 +44,8 @@ h1 {
     font-size: 15px;
 }
 
+/* Prima sequenza di foto + Descrizione */
+
 .pictures {
     margin: 0;
 }
@@ -46,6 +53,8 @@ h1 {
 .description {
     font-size: 10px;
 }
+
+/* Testo Centrale + Lista non ordinata */
 
 .text {
     font-size: 20px;
@@ -57,4 +66,37 @@ h1 {
 
 .informazioni {
     margin-left: 0px;
+}
+
+/* Tabella */
+
+table, th, td {
+    border: 1px solid;
+}
+
+.table1 {
+    width: 50%;
+}
+
+/* Parte Finale */
+
+#endpage {
+    font-size: 30px;
+    color: rgba(128, 128, 128, 1)
+}
+
+.lastph2 {
+    margin-top: 8px;
+}
+
+.lastph1 .lastph2 {
+    position: relative;
+}
+
+.lastword {
+  font-size: 30px;
+  color: rgba(255, 255, 255, 1);  
+  position: absolute;
+  margin-top: 5px;
+  font-weight: 900;
 }
