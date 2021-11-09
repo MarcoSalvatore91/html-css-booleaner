@@ -8,7 +8,7 @@ body {
 
 header {
     background-color: rgba(37, 109, 123, 1);
-    height: 150px;
+    height: 300px;
     width: 100%;
     background-image: url(../img/pattern.png);
     background-size: contain;
@@ -17,7 +17,7 @@ header {
 
 #head {
     color: white;
-    font-size: 40px;
+    font-size: 80px;
     position: absolute;
     bottom: 0px;
     left: 5px;
@@ -26,12 +26,12 @@ header {
 /* Sottotitoli */
 
 h1 {
-    font-size: 60px;
+    font-size: 120px;
     margin: 5px;
 }
 
 #fonte {
-    font-size: 20px;
+    font-size: 40px;
     color: rgba(0, 0, 0, 0.7);
     margin: 0;
 }
@@ -41,7 +41,7 @@ h1 {
 }
 
 #data {
-    font-size: 15px;
+    font-size: 30px;
 }
 
 /* Prima sequenza di foto + Descrizione */
@@ -51,42 +51,64 @@ h1 {
 }
 
 .description {
-    font-size: 10px;
+    font-size: 20px;
+}
+
+.tim1{
+    height: 1185px;
+    width: 48%;
+}
+
+.tim2{
+    width: 50%;
 }
 
 /* Testo Centrale + Lista non ordinata */
 
 .text {
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .yellow {
     background-color: yellow;
 }
 
-.informazioni {
+ul{
+    font-size: 30px;
     margin-left: 0px;
 }
 
 /* Tabella */
 
 table, th, td {
-    border: 1px solid;
+    font-size: 40px;;
+    text-align: left;
+    border-collapse: collapse;
 }
 
-.table1 {
+thead {
+    color: white;
+    background-color: rgba(0, 127, 255, 0.5);
+    margin: 0px;
+}
+
+.ultima-colonna {
     width: 50%;
+}
+
+.colonne-mezzo {
+    background-color: rgba(163, 231, 214, 0.5);
 }
 
 /* Parte Finale */
 
 #endpage {
-    font-size: 30px;
+    font-size: 60px;
     color: rgba(128, 128, 128, 1)
 }
 
 .lastph2 {
-    margin-top: 8px;
+    margin-top: 16px;
 }
 
 .lastph1 .lastph2 {
@@ -94,7 +116,7 @@ table, th, td {
 }
 
 .lastword {
-  font-size: 30px;
+  font-size: 60px;
   color: rgba(255, 255, 255, 1);  
   position: absolute;
   margin-top: 5px;
