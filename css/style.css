@@ -116,9 +116,9 @@ thead {
 }
 
 .lastword {
-  font-size: 60px;
+  font-size: 35px;
   color: rgba(255, 255, 255, 1);  
   position: absolute;
-  margin-top: 5px;
+  margin-top: 15px;
   font-weight: 900;
 }
