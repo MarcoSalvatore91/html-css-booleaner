@@ -1,14 +1,19 @@
-/* Generico */
+/* Generics */
 body {
-    margin: 0;
+    width: 1080px;
+    margin: 0 auto;
     
 }
 
 /* Header + Titolo */
 
+#logo {
+    width: 50px;
+}
+
 header {
     background-color: rgba(37, 109, 123, 1);
-    height: 300px;
+    height: 50px;
     width: 100%;
     background-image: url(../img/pattern.png);
     background-size: contain;
@@ -26,12 +31,12 @@ header {
 /* Sottotitoli */
 
 h1 {
-    font-size: 120px;
+    font-size: 38px;
     margin: 5px;
 }
 
 #fonte {
-    font-size: 40px;
+    font-size: 10px;
     color: rgba(0, 0, 0, 0.7);
     margin: 0;
 }
@@ -41,7 +46,7 @@ h1 {
 }
 
 #data {
-    font-size: 30px;
+    font-size: 5px;
 }
 
 /* Prima sequenza di foto + Descrizione */
@@ -54,19 +59,10 @@ h1 {
     font-size: 20px;
 }
 
-.tim1{
-    height: 1185px;
-    width: 48%;
-}
-
-.tim2{
-    width: 50%;
-}
-
 /* Testo Centrale + Lista non ordinata */
 
 .text {
-    font-size: 40px;
+    font-size: 10px;
 }
 
 .yellow {
